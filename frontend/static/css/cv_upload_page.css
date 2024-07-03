@@ -1,0 +1,50 @@
+.upload-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background: url('https://images.unsplash.com/photo-1560757801-9a5681f6e491?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+.upload-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.upload-box {
+    width: 80%;
+    max-width: 600px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #999;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.upload-box:hover {
+    border-color: #27ae60;
+    color: #27ae60;
+}
+
+.upload-page button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.upload-page button:hover {
+    background-color: #2ecc71;
+}

@@ -1,0 +1,50 @@
+.results-page {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.overview, .detailed-report {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabs button:hover {
+    background-color: #4cae4c;
+}
+
+.charts {
+    margin: 20px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.actions button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actions button:hover {
+    background-color: #4cae4c;
+}
