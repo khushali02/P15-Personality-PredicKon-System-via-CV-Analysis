@@ -3,27 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personality Prediction System</title>
+    <title>WeEmploy Dashboard</title>
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Personality Predictor</div>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="">About</a>
-            <a href="contact.html">Contact</a>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="user-info">
+                <img src="user-icon.png" alt="User Icon" class="user-icon">
+                <p class="user-name">User</p>
+                <p class="user-role">Applicant</p>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="home.html">Home</a></li>
+                <li class="nav-item"><a href="#">Profile</a></li>
+                <li class="nav-item"><a href="assessment.html">Assessment</a></li>
+                <li class="nav-item"><a href="cv_upload_page.html">Tell us more</a></li>
+                <li class="nav-item"><a href="#">Report</a></li>
+                <li class="nav-item"><a href="#">Settings</a></li>
+            </ul>
         </nav>
-    </header>
-    <main class="landing">
-        <div class="content">
-            <h1>Predict Personality from CV</h1>
-            <p>Analyze your CV to get a detailed personality report and gain valuable insights about your professional traits.</p>
-            <button onclick="location.href='cv_upload_page.html'">Upload CV</button>
+        <div class="main-content">
+            <header class="header">
+                <h1>Dashboard</h1>
+            </header>
+            <section class="content">
+                <div class="notification">
+                    <p>Thanks for registering!</p>
+                </div>
+                <div class="web-assessment">
+                    <h2>Web Assessment Platform</h2>
+                    <p>Please click <a href="#">this link</a> to check your personality.</p>
+                </div>
+            </section>
         </div>
-    </main>
+    </div>
     <footer>
-        <p>&copy; 2024 Personality Prediction System</p>
+        <p>Copyright © 2019 WeEmploy.com. All rights reserved. Version 2.0</p>
     </footer>
 </body>
 </html>
